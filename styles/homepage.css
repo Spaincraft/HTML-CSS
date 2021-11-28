@@ -1,0 +1,39 @@
+
+.skewed-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.skewed-header >.header-image img{
+    height: 1fr;
+    width:  1fr;
+}
+
+.skewed-header>.content-wrapper > #explore{
+    color: goldenrod;
+    font-size: 2em;
+    padding:50px 1px 1px 10px;
+    
+}
+
+.skewed-header >.content-wrapper>.nav-wrapper{
+
+   display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+   grid-gap: 1px 0.7px;
+   font-size: 2em;
+   padding:10px 10px 50px 10px;
+
+}
+
+.skewed-header >.content-wrapper>.nav-wrapper > #spark{
+    padding-left: 75px;
+    color:gray;
+}
+
+
+
+

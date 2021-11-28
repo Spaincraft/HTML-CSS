@@ -1,0 +1,27 @@
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+
+.footer-wrapper >.footer-link{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: rgb(48, 45, 45);
+    border: 1px  solid whitesmoke;
+    border-radius: 2px;
+ 
+}
+
+.footer-wrapper >.footer-link :nth-child(2){
+    padding:10px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+}
+
+

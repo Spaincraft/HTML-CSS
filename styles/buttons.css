@@ -1,0 +1,56 @@
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: grey;
+    color:white;
+    font-size: 1.25em;
+    padding: 15px 30px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline:none;
+
+}
+
+.btn i{
+    color:rgb(75, 210, 71);
+}
+
+
+
+#search{
+    color:grey;
+    font-size: 1.5em;
+}
+
+
+.secondary-buttons-wrapper{
+    padding: 60px;
+}
+
+.secondary-buttons-wrapper > #sign-up{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    background-color: rgb(75, 210, 71);;
+    color:black;
+    font-size: 2em;
+    padding: 25px 30px;
+    border: 1px solid rgb(75, 210, 71);;
+    border-radius: 4px; 
+    outline:none;
+}
+
+
+.secondary-buttons-wrapper > #learn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    background-color: black;
+    color:white;
+    font-size: 2em;
+    padding: 25px 30px;
+    border: 1px solid black;
+    border-radius: 4px; 
+    outline:none;
+}
